@@ -1,4 +1,11 @@
+
+<p align="center">
 <img width="256px" height="256px" src="logo.png" alt="logo" />
+</p>
+
+<p align="center">
+	<a href="https://travis-ci.org/arthurmco/satsuki"><img src="https://travis-ci.org/arthurmco/satsuki.svg?branch=master"></a>
+</p>
 
 Satsuki is a web application for photo organizing and basic
 editing.  
