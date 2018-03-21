@@ -1,0 +1,32 @@
+{
+  "name": "satsuki",
+  "version": "0.1.0",
+  "description": "online photo organizer and basic editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurmco/satsuki.git"
+  },
+  "keywords": [
+    "photo",
+    "react",
+    "organizer",
+    "image-editor"
+  ],
+  "author": "Arthur M",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/arthurmco/satsuki/issues"
+  },
+  "homepage": "https://github.com/arthurmco/satsuki#readme",
+  "devDependencies": {
+    "ts-loader": "^4.1.0",
+    "typescript": "^2.7.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
