@@ -41,7 +41,7 @@ class LocalImage implements BaseImage {
 	this.name = name;
 	this.source = source;
 	this.format = format;
-
+	
 	jimp.read(source).then((img) => {
 	    this.width = img.bitmap.width;
 	    this.height = img.bitmap.height;
