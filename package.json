@@ -1,7 +1,7 @@
 {
   "name": "satsuki",
   "version": "0.1.0",
-  "description": "online photo organizer and basic editor",
+  "description": "web photo organizer with a nice image editor",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha -r ts-node/register test/*.spec.ts",

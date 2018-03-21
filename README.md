@@ -1,4 +1,4 @@
-![satsuki logo](logo.png "logo")
+<img width="256px" height="256px" src="logo.png" alt="logo" />
 
 Satsuki is a web application for photo organizing and basic
 editing.  
