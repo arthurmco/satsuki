@@ -1,0 +1,32 @@
+/*
+ * CSS for the menu bars
+ */
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #2045c0;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #101010;
+    background-color: rgba(32, 69, 182, 0.2);
+    -webkit-transition: background 0.7s, color 0.8s;
+    transition: background 0.7s, color 0.8s;
+}

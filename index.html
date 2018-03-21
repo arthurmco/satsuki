@@ -5,10 +5,55 @@
     <title>Satsuki, the Killer Photo Editor</title>
     <!-- I hope you got the reference :P -->
 
-    
+    <link href="css/main.css" rel="stylesheet"/>
+    <link href="css/bar.css" rel="stylesheet"/>
   </head>
   <body>
     <script src="build/bundle.js"></script>
+
+    <script defer src="js/fileload.js"></script>
+    <nav>
+      <div id="title-bar">Satsuki</div>
+      <ul id="menu-bar">
+	
+      </ul>
+    </nav>
+    <form style="display: none">
+      <input type="file" accept="image/*" id="image-file" />
+    </form>
+    <article>
+      <nav>
+	<ul id="gallery-bar">
+	  <li><a href="#" onClick="file_upload_click()">Upload Image</a></li>
+<!--	  <li><a href="#"></a></li>
+	  <li><a href="#"></a></li> -->
+	</ul>
+      </nav>
+      <div id="gallery-breadcrumb"></div>
+      <div id="gallery">
+        <div class="gallery-item">
+	  <img id="gallery-image" alt="" src=""/>
+	  <div id="gallery-details">
+	    <p>test.jpg, JPG file</p>
+	    <p>1920&times;1080 pixels</p>
+	  </div>
+	</div>
+        <div class="gallery-item">
+	  <img id="gallery-image" alt="" src=""/>
+	  <div id="gallery-details">
+	    <p>test2.png, PNG file</p>
+	    <p>1920&times;1080 pixels</p>
+	  </div>	  
+	</div>
+        <div class="gallery-item">
+	  <img id="gallery-image" alt="" src=""/>
+	  <div id="gallery-details">
+	    <p>test3.png, PNG file</p>
+	    <p>1920&times;1080 pixels</p>
+	  </div>
+	</div>
+      </div>
+    </article>
     
     
   </body>

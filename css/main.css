@@ -1,0 +1,52 @@
+
+body {
+    font-family: Segoe UI, Liberation Sans-Serif, San Francisco, sans-serif;
+}
+
+nav {
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0.125em;
+    margin-bottom: 2em;
+}
+
+nav #title-bar {
+    position: relative;
+    width: 25%;
+    border-right: 1px solid #454545;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+#gallery .gallery-item #gallery-image {
+    position: relative;
+    height: 70%;
+}
+
+#gallery .gallery-item #gallery-details {
+    position: relative;
+    top: 70%;
+    height: 30%;
+    border-top: 1px solid #909090;
+    border-bottom: 1px solid black;
+    border-radius: 0 0 0.5em 0.5em;
+    background-color: #efefef;
+
+    text-align: center;
+    line-height: 75%;
+}
+
+
+#gallery .gallery-item {
+    border: 1px solid black;
+    width: 256px;
+    height: 256px;
+    margin: 0.5em;
+    border-radius: 0.5em;
+}
