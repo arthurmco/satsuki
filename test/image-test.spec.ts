@@ -52,16 +52,20 @@ describe('Image libraries', () => {
 	const img1: BaseImage  = {
 	    format: "test",
 	    width: 48,
-	    height: 48
+	    height: 48,
+	    source: Buffer.alloc(16),
+	    name: "testimg1"
 	};
 
 	const img2: BaseImage = {
 	    format: "test",
 	    width: 64,
-	    height: 64
+	    height: 64,
+	    source: Buffer.alloc(16),
+	    name: "testimg2"	    
 	};
 
-	let cont = new ImageContainer("cont", (ccont) => {
+	let cont = new ImageContainer("cont", (ccont: ImageContainer) => {
 	    ccont.children.push(img1);
 	    ccont.children.push(img2);
 
@@ -73,19 +77,23 @@ describe('Image libraries', () => {
     });
 
     it('should add LocalImages to a container', (done) => {
-	const img1: BaseImage  = {
+	const img1 = {
 	    format: "test",
 	    width: 48,
-	    height: 48
+	    height: 48,
+	    source: Buffer.alloc(16),
+	    name: "testimg1"
 	};
 
-	const img2: BaseImage = {
+	const img2 = {
 	    format: "test",
 	    width: 64,
-	    height: 64
+	    height: 64,
+	    source: Buffer.alloc(16),
+	    name: "testimg2"
 	};
 
-	let cont = new ImageContainer("cont", (ccont) => {
+	let cont = new ImageContainer("cont", (ccont: ImageContainer) => {
 	    ccont.children.push(img1);
 	    ccont.children.push(img2);
 

@@ -10,4 +10,5 @@ export default interface BaseImage {
     format: string; // The image format, like 'PNG' or 'JPG'
     width: number;
     height: number;
+    name: String
 };
