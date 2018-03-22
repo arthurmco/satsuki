@@ -15,10 +15,12 @@
       ".tsx"
     ],
     "exclude": [
-      "**/*.d.ts",
-      "node_modules/**/*.js",
-      "coverage/**/*.js",
-      "build/**/*.js"
+	"**/*.d.ts",
+	"node_modules/**/*.js",
+	"coverage/**/*.js",
+	"build/**/*.js",
+	"webpack.config.js"
+	
     ],
     "reporter": [
       "html"

@@ -4,7 +4,9 @@
 </p>
 
 <p align="center">
-	<a href="https://travis-ci.org/arthurmco/satsuki"><img src="https://travis-ci.org/arthurmco/satsuki.svg?branch=master"></a>
+	<a href="https://travis-ci.org/arthurmco/satsuki"><img
+	src="https://travis-ci.org/arthurmco/satsuki.svg?branch=master"></a>
+	<a href="https://coveralls.io/github/arthurmco/satsuki"><img src="https://coveralls.io/repos/github/arthurmco/satsuki/badge.svg?branch=master" /></a>
 </p>
 
 Satsuki is a web application for photo organizing and basic
