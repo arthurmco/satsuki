@@ -2,6 +2,16 @@
  * CSS for the menu bars
  */
 
+article nav {
+    background-color: #fafafa;
+    position: relative;
+    top: -0.4em;
+    margin: 0;
+    padding: 0;
+    padding-left: 1em;
+    height: 1.75em;
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -27,6 +37,6 @@ nav ul li a:hover {
     text-decoration: none;
     color: #101010;
     background-color: rgba(32, 69, 182, 0.2);
-    -webkit-transition: background 0.7s, color 0.8s;
-    transition: background 0.7s, color 0.8s;
+    -webkit-transition: background 0.4s, color 0.5s;
+    transition: background 0.4s, color 0.5s;
 }
