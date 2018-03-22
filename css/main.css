@@ -35,6 +35,11 @@ nav #title-bar {
     height: 70%;
 }
 
+#gallery .gallery-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.125s;
+}
+
 #gallery .gallery-item #gallery-details {
     position: relative;
     top: 70%;
