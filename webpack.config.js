@@ -26,6 +26,8 @@ module.exports = {
     extensions: [".ts", ".tsx", ".js"]
   },
 
+  devtool: "cheap-module-eval-source-map",
+
   module: {
     /*
      * Each loader needs an associated Regex test that goes through each
